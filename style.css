@@ -1,0 +1,368 @@
+#yourpet{
+    display: flex;
+    gap: 15%;
+    background-color: rgb(230, 244, 253);
+}
+#nav{
+    background-color: rgb(230, 244, 253);
+}
+#navbar{
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+    background-color: rgb(230, 244, 253);
+}
+#service1{
+    display: flex;
+    gap: 30%;
+}
+#service2{
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+}
+#bestvet{
+display: flex;
+gap: 20%;
+background-color: rgb(230, 244, 253);
+padding-bottom: 10%;
+}
+#patients{
+    display: flex;
+    gap: 20%;
+}
+#people{
+    display: flex;
+    gap: 20%;
+}
+#doctors{
+    display: flex;
+    gap: 15%;
+}
+#blog{
+    text-align: center;
+    background-color:rgb(230, 244, 253) ;
+}
+#footer{
+    display: flex;
+    gap: 15%;
+    background-color: rgb(245, 246, 247);
+}
+#icon{
+    display: flex;
+}
+#docimg{
+    width: 355px;
+}
+#doc1{
+    width: 280px;
+}
+#doc2{
+    width: 300px;
+    height: 340px;
+}
+#doc3{
+    width: 279px;
+}
+button{
+    background-color: rgb(34, 34, 129);
+    color: white;
+    width: 100px;
+    height: 50px;
+    border-radius: 15px;
+}
+.star{
+color: goldenrod;
+font-weight: 90px;
+
+}
+.h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 56px;
+}
+h4{
+    color: orange;
+}
+
+@media screen and (min-width:300px)and (max-width:700px){
+    #yourpet{
+        display: block;
+        gap: 15%;
+        background-color: rgb(230, 244, 253);
+    } 
+    .h1{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 24px;
+    }
+    #navbar{
+        list-style-type: none;
+        display: flex;
+        gap: 10px;
+        background-color: rgb(230, 244, 253);
+        font-size: 12px;
+    }
+    #nav{
+        background-color: rgb(230, 244, 253);
+    }
+    #pet{
+        width: 280px;
+    }
+    #service1{
+        display: block;
+        gap: 30%;
+    }
+    #service2{
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 15px;
+    }
+    #bestvet{
+        display: block;
+        gap: 20%;
+        background-color: rgb(230, 244, 253);
+        padding-bottom: 10%;
+        font-size: 15px;
+        }
+        #docimg{
+            width: 155px;
+        }
+        #patients{
+            display: block;
+            gap: 20%;
+        }
+        #people{
+            display: block;
+            gap: 20%;
+            font-size: 15px;
+        }
+        #doctors{
+            display: block;
+            gap: 15%;
+        }
+        #doc1{
+            width: 200px;
+        }
+        #doc2{
+            width: 200px;
+            height: 240px;
+        }
+        #doc3{
+            width: 200px;
+        }
+        button{
+            background-color: rgb(34, 34, 129);
+            color: white;
+            width: 70px;
+            height: 30px;
+            border-radius: 15px;
+        }
+        #footer{
+            display: block;
+            gap: 15%;
+            background-color: rgb(245, 246, 247);
+        }
+        #icon{
+            display: flex;
+        }
+        .vet{
+            font-size: 20px;
+        }
+        #blog{
+            text-align: center;
+            background-color:rgb(230, 244, 253) ;
+            font-size: 14px;
+        }
+}
+
+
+
+@media screen and (min-width:701px)and (max-width:1300px){
+    #yourpet{
+        display: flex;
+        gap: 15%;
+        background-color: rgb(230, 244, 253);
+        font-size: 25px;
+    } 
+    .h1{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 45px;
+    }
+    #navbar{
+        list-style-type: none;
+        display: flex;
+        gap: 10%;
+        background-color: rgb(230, 244, 253);
+        font-size: 24px;
+    }
+    #nav{
+        background-color: rgb(230, 244, 253);
+    }
+    #pet{
+        width: 400px;
+    }
+    #service1{
+        display: flex;
+        gap: 30%;
+        font-size: 25px;
+    }
+    #service2{
+        display: grid;
+    grid-template-columns: repeat(3,2fr);
+    gap: 10%;
+        font-size: 25px;
+    }
+    #bestvet{
+        display: flex;
+        gap: 20%;
+        background-color: rgb(230, 244, 253);
+        padding-bottom: 10%;
+        font-size: 25px;
+        }
+        #docimg{
+            width: 255px;
+        }
+        #patients{
+            display: flex;
+            gap: 20%;
+        }
+        #people{
+            display: flex;
+            gap: 20%;
+            font-size: 25px;
+        }
+        #doctors{
+            display: flex;
+            gap: 15%;
+            font-size: 25px;
+        }
+        #doc1{
+            width: 200px;
+        }
+        #doc2{
+            width: 200px;
+            height: 240px;
+        }
+        #doc3{
+            width: 200px;
+        }
+        button{
+            background-color: rgb(34, 34, 129);
+            color: white;
+            width: 100px;
+            height: 40px;
+            border-radius: 15px;
+        }
+        #footer{
+            display: flex;
+            gap: 15%;
+            font-size: 20px;
+            background-color: rgb(245, 246, 247);
+        }
+        #icon{
+            display: flex;
+        }
+        .vet{
+            font-size: 30px;
+        }
+        #blog{
+            text-align: center;
+            background-color:rgb(230, 244, 253) ;
+            font-size: 25px;
+        }
+}
+
+@media screen and (min-width:0px)and (max-width:299px){
+    #yourpet{
+        display: block;
+        gap: 15%;
+        background-color: rgb(230, 244, 253);
+        font-size: 15px;
+    } 
+    .h1{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 20px;
+    }
+    #navbar{
+        list-style-type: none;
+        display: flex;
+        gap: 10px;
+        background-color: rgb(230, 244, 253);
+        font-size: 10px;
+    }
+    #nav{
+        background-color: rgb(230, 244, 253);
+    }
+    #pet{
+        width: 280px;
+    }
+    #service1{
+        display: block;
+        gap: 30%;
+        font-size: 12px;
+    }
+    #service2{
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 12px;
+    }
+    #bestvet{
+        display: block;
+        gap: 20%;
+        background-color: rgb(230, 244, 253);
+        padding-bottom: 10%;
+        font-size: 12px;
+        }
+        #docimg{
+            width: 155px;
+        }
+        #patients{
+            display: block;
+            gap: 20%;
+            font-size: 12px;
+        }
+        #people{
+            display: block;
+            gap: 20%;
+            font-size: 12px;
+        }
+        #doctors{
+            display: block;
+            gap: 15%;
+            font-size: 12px;
+        }
+        #doc1{
+            width: 200px;
+        }
+        #doc2{
+            width: 200px;
+            height: 240px;
+        }
+        #doc3{
+            width: 200px;
+        }
+        button{
+            background-color: rgb(89, 89, 167);
+            color: white;
+            width: 90px;
+            height: 30px;
+            border-radius: 15px;
+        }
+        #footer{
+            display: block;
+            gap: 15%;
+            font-size: 12px;
+            background-color: rgb(245, 246, 247);
+        }
+        #icon{
+            display: flex;
+        }
+        .vet{
+            font-size: 15px;
+        }
+        #blog{
+            text-align: center;
+            background-color:rgb(230, 244, 253) ;
+            font-size: 12px;
+        }
+}
+
+
